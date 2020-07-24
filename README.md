@@ -4,11 +4,17 @@ Backend for a cloud based RideShare application , that can be used to pool rides
 The RideShare application allows the users to create a new ride if they are travelling from
 point A to point B. The application has the able to
 ● Add a new user
+
 ● Delete an existing user
+
 ● Create a new Ride
+
 ● Search for an existing ride between a source and a destination
+
 ● Join an existing ride
+
 ● Delete a ride
+
 
 For orchestrator VM :
 --Navigate to Project/orchestrator/ folder and run(with sudo access):
