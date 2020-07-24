@@ -1,0 +1,15 @@
+ version: '3'
+services:
+    user_manage:
+        build: ./user_manage
+        ports:
+            - "8080:80"
+        container_name: "users"
+    ride_manage:
+        build: ./ride_manage
+        ports: 
+            - "8000:80"
+        container_name: "rides"
+        links:
+          - users
+
