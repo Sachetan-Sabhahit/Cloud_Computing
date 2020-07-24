@@ -1,0 +1,9 @@
+version: '3'
+services:
+    user_manage:
+        build: ./user_manage
+        ports:
+            - "80:80"
+        container_name: "users"
+        image: "users:latest"
+
